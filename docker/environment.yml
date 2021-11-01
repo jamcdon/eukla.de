@@ -11,5 +11,5 @@ dependencies:
   - r
   - r-irkernel
   #- anaconda
-  - tensorflow2.1-gpu
-  - pytorch1.4
+  - tensorflow-gpu
+  - pytorch
