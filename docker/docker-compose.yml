@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  jhub:
+  euklade:
     build: .
-    container_name: jhub
+    container_name: euklade-worker
     ports:
       - "6600:8000"
     restart: unless-stopped
