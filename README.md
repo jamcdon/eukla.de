@@ -1,3 +1,9 @@
+![Eukla.de Logo](./full-logo.png)
+
+# Eukla.de
+> A cloud native web IDE for data scientists
+
+
 ## reference material:
  - [jupyterhub-docker-deploy](https://github.com/jupyterhub/jupyterhub-deploy-docker)
  - [official jupyterhub docker](https://hub.docker.com/r/jupyterhub/jupyterhub)
