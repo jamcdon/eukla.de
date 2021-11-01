@@ -9,6 +9,6 @@ RUN conda env create -f environment.yml
 SHELL ["conda", "run", "-n", "jupyter-env", "/bin/bash", "-c"]
 
 RUN echo "verify jupyter install"
-RUN python -c "import jupyterhub-base"
+RUN python -c "import jupyterhub"
 
 RUN jupyterhub
