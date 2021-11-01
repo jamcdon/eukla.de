@@ -1,0 +1,13 @@
+FROM continuumio/miniconda3
+
+WORKDIR  /app
+
+COPY environment.yml .
+
+RUN cond env create -f environment.yml
+
+RUN conda activate jupyter-env
+RUN echo "verify jupyter install"
+RUN python -c "import jupyterhub-base"
+
+RUN jupyterhub
