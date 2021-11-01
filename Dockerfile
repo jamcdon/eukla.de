@@ -13,4 +13,4 @@ RUN python -c "import jupyterhub"
 
 EXPOSE 8000
 
-RUN jupyterhub
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "myenv", "python", "-m", "jupyterhub"]
