@@ -10,6 +10,6 @@ dependencies:
   - ipywidgets
   - r
   - r-irkernel
-  - anaconda3
+  - anaconda
   - tensorflow2.1-gpu
   - pytorch1.4
