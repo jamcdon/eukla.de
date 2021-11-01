@@ -13,4 +13,4 @@ RUN python -c "import jupyterhub"
 
 EXPOSE 8000
 
-ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "jupyter-env", "python", "-m", "jupyterhub", "--ip=0.0.0.0"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "jupyter-env", "python", "-m", "jupyterhub", "--ip=0.0.0.0", "--ConfigurableHTTPProxy='http://192.168.3.25:6600'"]
