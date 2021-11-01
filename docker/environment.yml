@@ -9,4 +9,4 @@ dependencies:
   - jupyterlab
   - ipywidgets
   - r
-  - irkernel
+  - r-irkernel
