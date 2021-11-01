@@ -11,4 +11,6 @@ SHELL ["conda", "run", "-n", "jupyter-env", "/bin/bash", "-c"]
 RUN echo "verify jupyter install"
 RUN python -c "import jupyterhub"
 
+EXPOSE 8000
+
 RUN jupyterhub
