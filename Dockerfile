@@ -4,7 +4,7 @@ WORKDIR  /app
 
 COPY environment.yml .
 
-RUN cond env create -f environment.yml
+RUN conda env create -f environment.yml
 
 RUN conda activate jupyter-env
 RUN echo "verify jupyter install"
