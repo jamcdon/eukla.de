@@ -1,5 +1,7 @@
 FROM continuumio/miniconda3
 
+LABEL AUTHOR="jaredamcdon@gmail.com"
+
 WORKDIR  /app
 
 COPY environment.yml .

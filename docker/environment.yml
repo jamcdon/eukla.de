@@ -13,3 +13,4 @@ dependencies:
   #- anaconda
   - tensorflow-gpu
   - pytorch
+  - pandas
