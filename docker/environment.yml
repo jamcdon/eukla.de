@@ -8,3 +8,5 @@ dependencies:
   - jupyterhub
   - jupyterlab
   - ipywidgets
+  - r
+  - irkernel
