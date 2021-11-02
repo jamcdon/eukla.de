@@ -20,6 +20,9 @@ RUN python -c "import jupyterhub"
 # this is a dev line -> see jupyterhub_confif.py line 1071
 EXPOSE 4400
 
+EXPOSE 6600
+
 EXPOSE 8000
+
 
 ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "jupyter-env", "python", "-m", "jupyterhub", "--config", "/app/jupyterhub_config.py"]
