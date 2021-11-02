@@ -6,4 +6,5 @@ services:
     container_name: euklade-worker
     ports:
       - "6600:8000"
+      - "4400:4400"
     restart: unless-stopped
