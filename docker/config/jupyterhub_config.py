@@ -359,7 +359,7 @@ c.JupyterHub.bind_url = 'http://192.168.3.25:6600'
 #          or `hub_bind_url` for setting the full bind URL.
 #  Default: '127.0.0.1'
 # changed dev etc
-    c.JupyterHub.hub_ip = '0.0.0.0'
+c.JupyterHub.hub_ip = '0.0.0.0'
 
 ## The internal port for the Hub process.
 #  
@@ -483,7 +483,7 @@ c.JupyterHub.bind_url = 'http://192.168.3.25:6600'
 
 ## Specify path to a logo image to override the Jupyter logo in the banner.
 #  Default: ''
-    c.JupyterHub.logo_file = '/app/mini.svg'
+c.JupyterHub.logo_file = '/app/mini.svg'
 
 ## Maximum number of concurrent named servers that can be created by a user at a
 #  time.
@@ -1068,7 +1068,7 @@ c.JupyterHub.bind_url = 'http://192.168.3.25:6600'
 #  New in version 0.7.
 #  Default: 0
 # dev etc change how do i find a solution to this?
-    c.Spawner.port = 4400
+c.Spawner.port = 4400
 
 ## An optional hook function that you can implement to do work after the spawner
 #  stops.
