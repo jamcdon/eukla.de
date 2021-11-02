@@ -15,7 +15,7 @@ SHELL ["conda", "run", "-n", "jupyter-env", "/bin/bash", "-c"]
 RUN echo "verify jupyter install"
 RUN python -c "import jupyterhub"
 
-RUN ["conda", "run", "--no-capture-output", "-n", "jupyter-env", "python", "-m", "jupyterhub", "--config", "-f", "/app/jupyterhub_config.py"]
+RUN ["conda", "run", "--no-capture-output", "-n", "jupyter-env", "python", "-m", "jupyterhub", "--config", "/app/jupyterhub_config.py"]
 #RUN ["conda", "run", "--no-capture-output", "-n", "jupyter-env", "python", "-m", "jupyterhub", "--generate-config", "-f", "/app/jupyterhub_config.py"]
 
 # this is a dev line -> see jupyterhub_confif.py line 1071
