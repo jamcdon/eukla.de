@@ -133,7 +133,7 @@
 #          Sets protocol, ip, base_url
 #  Default: 'http://:8000'
 # MODIFIED DEV TEST
-c.JupyterHub.bind_url = 'http://192.168.3.25:6600'
+c.JupyterHub.bind_url = 'http://0.0.0.0:6600'
 
 ## Whether to shutdown the proxy when the Hub shuts down.
 #  
