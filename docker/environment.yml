@@ -6,7 +6,7 @@ channels:
 dependencies:
   - python=3.8
   - jupyterhub
-  - #notebooks // i dont think this is a conda package
+  #- notebooks // i dont think this is a conda package
   - jupyterlab
   - ipywidgets
   - r
