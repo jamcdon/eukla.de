@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1575" height="192.5" viewBox="0 0 900 110" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1.44 0 0 1.44 452.19 55.82)" style=""  >
+		<text xml:space="preserve" font-family="'Lucida Console', Monaco, monospace" font-size="80" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(51,142,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-241" y="25.13" style="fill: rgb(51,142,54); ">Themisto</tspan></text>
+</g>
+<g transform="matrix(1.44 0 0 1.44 1024.29 56.39)" style=""  >
+		<text xml:space="preserve" font-family="'Lucida Console', Monaco, monospace" font-size="80" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(80,146,71); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-241" y="25.13" style="fill: rgb(51,142,54); ">dev</tspan></text>
+</g>
+<g transform="matrix(1.44 0 0 1.44 668.62 59.47)" style=""  >
+		<text xml:space="preserve" font-family="'Lucida Console', Monaco, monospace" font-size="80" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(217,161,82); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.23" y="25.13" >.</tspan></text>
+</g>
+<g transform="matrix(0.86 0 0 0.86 50 59.36)"  >
+<circle style="stroke: rgb(217,161,82); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(217,161,82); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="40" />
+</g>
+<g transform="matrix(0.36 0 0 0.36 87.18 19.37)"  >
+<circle style="stroke: rgb(51,142,54); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(51,142,54); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="40" />
+</g>
+</svg>

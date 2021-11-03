@@ -483,7 +483,7 @@ c.JupyterHub.hub_ip = '0.0.0.0'
 
 ## Specify path to a logo image to override the Jupyter logo in the banner.
 #  Default: ''
-c.JupyterHub.logo_file = '/app/mini.svg'
+c.JupyterHub.logo_file = '/app/full.svg'
 
 ## Maximum number of concurrent named servers that can be created by a user at a
 #  time.
@@ -935,6 +935,7 @@ c.JupyterHub.subdomain_host = 'http://debiandocker.local[:port]'
 #  
 #  Is None if you don't need to change the URL.
 #  Default: None
+# change dev etc ?
 # c.Spawner.hub_connect_url = None
 
 ## The IP address (or hostname) the single-user server should listen on.
@@ -942,8 +943,8 @@ c.JupyterHub.subdomain_host = 'http://debiandocker.local[:port]'
 #  The JupyterHub proxy implementation should be able to send packets to this
 #  interface.
 #  Default: ''
-# dev etc change ?
-# c.Spawner.ip = ''
+# dev etc change ? => i think this defaults to 127.0.0.1
+c.Spawner.ip = '0.0.0.0'
 
 ## Minimum number of bytes a single-user notebook server is guaranteed to have
 #  available.

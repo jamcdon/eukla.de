@@ -5,7 +5,7 @@ LABEL AUTHOR="jaredamcdon@gmail.com"
 WORKDIR  /app
 
 COPY environment.yml .
-COPY static/images/mini.svg .
+COPY static/images/full.svg .
 COPY config/jupyterhub_config.py .
 
 RUN conda env create -f environment.yml

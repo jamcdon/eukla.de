@@ -17,7 +17,7 @@
    - [ ] get user authentication protocols functioning
    - [ ] fix localhost redirect
  - [ ] build docker-compose.yml MVP that functions as a k8s worker node
- - [ ] purchase TLD
+ - [x] purchase TLD
  - [ ] convert docker-compose structure to k8s structure
  - [ ] get jupyterhub instance functioning on microk8s
  - [ ] research different cloud solution pricing, functionality and models
@@ -33,6 +33,7 @@
    - [ ] pricing page
    - [ ] instance management page
    - [ ] instance page
+ - [ ] LDAP/other authentication? OAuth?
  - [ ] build sql
    - [ ] store
      - user information
