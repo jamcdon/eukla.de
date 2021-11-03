@@ -944,7 +944,7 @@ c.JupyterHub.subdomain_host = 'http://debiandocker.local[:port]'
 #  interface.
 #  Default: ''
 # dev etc change ? => i think this defaults to 127.0.0.1
-c.Spawner.ip = '0.0.0.0'
+c.Spawner.ip = '192.168.3.25'
 
 ## Minimum number of bytes a single-user notebook server is guaranteed to have
 #  available.
