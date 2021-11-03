@@ -689,8 +689,9 @@ c.JupyterHub.logo_file = '/app/full.svg'
 #  Default: ''
 # dev etc change
 # c.JupyterHub.subdomain_host = 'https://hub.eukla.de[:port]'
-c.JupyterHub.subdomain_host = 'http://debiandocker.local[:port]'
+#c.JupyterHub.subdomain_host = 'http://debiandocker.local[:port]'
 
+c.JupyterHub.subdomain_host = 'http://192.168.3.25[:port]'
 ## Paths to search for jinja templates, before using the default templates.
 #  Default: []
 # dev change etc
