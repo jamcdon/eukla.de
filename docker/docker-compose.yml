@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  euklade:
+  themisto:
     build: .
-    container_name: euklade-worker
+    container_name: themisto-worker
     ports:
       - "6600:6600"
       - "4400:4400"
