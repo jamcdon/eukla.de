@@ -689,6 +689,7 @@ c.JupyterHub.logo_file = '/app/mini.svg'
 #  Default: ''
 # dev etc change
 # c.JupyterHub.subdomain_host = 'https://hub.eukla.de[:port]'
+c.JupyterHub.subdomain_host = 'http://debiandocker.local[:port]'
 
 ## Paths to search for jinja templates, before using the default templates.
 #  Default: []
@@ -992,7 +993,8 @@ c.JupyterHub.logo_file = '/app/mini.svg'
 #  Note that this does *not* prevent users from accessing files outside of this
 #  path! They can do so with many other means.
 #  Default: ''
-# c.Spawner.notebook_dir = ''
+# dev changed etc below
+c.Spawner.notebook_dir = '/notebooks'
 
 ## An HTML form for options a user can specify on launching their server.
 #  

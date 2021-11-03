@@ -1,6 +1,6 @@
-![Eukla.de Logo](./full-logo.png)
+![Themisto.dev Logo](./full-logo.png)
 
-# Eukla.de
+# Themisto.dev
 > A cloud native web IDE for data scientists
 
 
